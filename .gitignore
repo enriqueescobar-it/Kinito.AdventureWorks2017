@@ -1,0 +1,6 @@
+*.suo
+*.cache
+*.vshost.exe*
+*.exe.config
+*.csproj.FileListAbsolute.txt
+TemporaryGeneratedFile_*.cs
