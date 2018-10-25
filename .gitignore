@@ -4,3 +4,4 @@
 *.exe.config
 *.csproj.FileListAbsolute.txt
 TemporaryGeneratedFile_*.cs
+*.dll
