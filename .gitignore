@@ -6,3 +6,5 @@
 TemporaryGeneratedFile_*.cs
 *.dll
 *.force
+*.pdb
+*.exe
