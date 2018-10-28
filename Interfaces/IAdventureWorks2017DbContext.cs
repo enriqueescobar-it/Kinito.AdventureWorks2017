@@ -129,10 +129,10 @@ namespace Interfaces
         // Stored Procedures
         int HumanResources_UspUpdateEmployeeHireInfo(int? businessEntityId, string jobTitle, System.DateTime? hireDate, System.DateTime? rateChangeDate, decimal? rate, byte? payFrequency, bool? currentFlag);
         // HumanResources_UspUpdateEmployeeHireInfoAsync cannot be created due to having out parameters, or is relying on the procedure result (int)
-        /*
+        
         int HumanResources_UspUpdateEmployeeLogin(int? businessEntityId, System.Data.Entity.Hierarchy.HierarchyId organizationNode, string loginId, string jobTitle, System.DateTime? hireDate, bool? currentFlag);
         // HumanResources_UspUpdateEmployeeLoginAsync cannot be created due to having out parameters, or is relying on the procedure result (int)
-        */
+        
         int HumanResources_UspUpdateEmployeePersonalInfo(int? businessEntityId, string nationalIdNumber, System.DateTime? birthDate, string maritalStatus, string gender);
         // HumanResources_UspUpdateEmployeePersonalInfoAsync cannot be created due to having out parameters, or is relying on the procedure result (int)
 
@@ -161,11 +161,11 @@ namespace Interfaces
         int UspSearchCandidateResumes(string searchString, bool? useInflectional, bool? useThesaurus, int? language);
         // UspSearchCandidateResumesAsync cannot be created due to having out parameters, or is relying on the procedure result (int)
 
-        /*
+        
         // Table Valued Functions
         [System.Data.Entity.DbFunction("AdventureWorks2017DbContext", "ufnGetContactInformation")]
         [CodeFirstStoreFunctions.DbFunctionDetails(DatabaseSchema = "dbo")]
-        System.Linq.IQueryable<UfnGetContactInformationReturnModel> UfnGetContactInformation(int? personId);*/
+        System.Linq.IQueryable<UfnGetContactInformationReturnModel> UfnGetContactInformation(int? personId);
     }
 
 }
