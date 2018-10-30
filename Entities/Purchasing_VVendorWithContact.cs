@@ -16,9 +16,6 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entities
 {
-    using System;
-    using System.CodeDom.Compiler;
-    using System.Collections.Generic;
 
     // vVendorWithContacts
     [Table("vVendorWithContacts", Schema = "Purchasing")]
