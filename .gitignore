@@ -8,3 +8,4 @@ TemporaryGeneratedFile_*.cs
 *.force
 *.pdb
 *.exe
+*.user
