@@ -15,6 +15,9 @@
 namespace Interfaces
 {
     using Entities;
+    using System;
+    using System.CodeDom.Compiler;
+    using System.Collections.Generic;
 
     public interface IAdventureWorks2017DbContext : System.IDisposable
     {

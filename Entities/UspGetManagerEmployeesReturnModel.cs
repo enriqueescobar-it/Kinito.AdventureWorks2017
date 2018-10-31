@@ -16,6 +16,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entities
 {
+    using System;
+    using System.CodeDom.Compiler;
+    using System.Collections.Generic;
 
     [System.CodeDom.Compiler.GeneratedCode("EF.Reverse.POCO.Generator", "2.37.2.0")]
     public class UspGetManagerEmployeesReturnModel
