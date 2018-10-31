@@ -9,3 +9,4 @@ TemporaryGeneratedFile_*.cs
 *.pdb
 *.exe
 *.user
+*.dll.config

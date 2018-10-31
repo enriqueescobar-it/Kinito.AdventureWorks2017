@@ -52,7 +52,7 @@
     Settings.IncludeQueryTraceOn9481Flag = false; // If SqlServer 2014 appears frozen / take a long time when this file is saved, try setting this to true (you will also need elevated privileges).
     Settings.IncludeCodeGeneratedAttribute = true; // If true, will include the GeneratedCode attribute, false to remove it.
     Settings.UsePrivateSetterForComputedColumns = true; // If the columns is computed, use a private setter.
-    Settings.AdditionalNamespaces = new[] { "" };  // To include extra namespaces, include them here. i.e. "Microsoft.AspNet.Identity.EntityFramework"
+    Settings.AdditionalNamespaces = new[] { "Entities" };  // To include extra namespaces, include them here. i.e. "Microsoft.AspNet.Identity.EntityFramework"
     Settings.AdditionalContextInterfaceItems = new[] // To include extra db context interface items, include them here. Also set DbContextClassModifiers="public partial", and implement the partial DbContext class functions.
     {
         ""  //  example: "void SetAutoDetectChangesEnabled(bool flag);"
@@ -137,7 +137,7 @@
     // Elements to generate ***************************************************************************************************************
     // Add the elements that should be generated when the template is executed.
     // Multiple projects can now be used that separate the different concerns.
-    Settings.ElementsToGenerate = Elements.Poco;
+    Settings.ElementsToGenerate = Elements.UnitOfWork;
 
     // Use these namespaces to specify where the different elements now live. These may even be in different assemblies.
     // Please note this does not create the files in these locations, it only adds a using statement to say where they are.
