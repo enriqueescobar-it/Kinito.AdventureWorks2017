@@ -3,6 +3,16 @@ Kinito AdventureWorks2017 Description
 
 https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-2017
 
+https://docs.microsoft.com/en-us/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-2017
+
+https://docs.microsoft.com/en-us/powershell/scripting/core-powershell/running-remote-commands?view=powershell-6
+
+https://docs.microsoft.com/en-us/iis/manage/powershell/powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools
+
+https://docs.microsoft.com/en-us/iis/manage/powershell/powershell-snap-in-using-the-powershell-help-system
+
+https://docs.microsoft.com/en-us/sql/analysis-services/install-sample-data-and-projects?view=sql-server-2017
+
 ## References
 
 https://social.technet.microsoft.com/wiki/contents/articles/36179.introduction-to-entityframework-reverse-poco-generator-for-visual-studio.aspx?Redirected=true
